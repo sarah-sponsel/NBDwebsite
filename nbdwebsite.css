@@ -1,0 +1,93 @@
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    font-size: 20px;
+    font-family:"Nobile";
+    margin: 0px;
+    color: #fff;
+    background-color: #faeee7;
+}
+
+main { 
+    display: block;
+    padding: 5px 0;
+}
+
+* { outline: none !important; }
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.95;
+}
+
+ h3, h4, h5, h6, p, a, input, div, textarea, label {
+    margin: 0;
+}
+
+h1 {
+    font:"Lobster"; 
+    font-size: 36px;
+}
+
+h2 { font-size: 28px;
+font: "Alegreya Sans";
+ }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+p { font-size: 1em;
+font: "Nobile"; }
+
+img { border-style: none; }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+button {
+ background: #ff8ba7;
+ border-radius: 11px;
+ padding: 20px 45px;
+ color: #000000;
+ display: inline-block;
+ font: normal bold 26px/1 "lobster two";
+ text-align: center;
+}
+
+/* more recipes */
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* bios? */
+  .bio {
+    float: left;
+    width: 25%;
+    padding: 50px;
+  }
