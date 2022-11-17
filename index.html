@@ -5,6 +5,7 @@
   <meta name="recipes, no-bake, ingredients, NBD" content="HTML, CSS, JavaScript">
     <title>NBD Website</title>
     <link rel="stylesheet" href="nbdwebsite.css">
+</head>
     <style>
         .dropbtn {
           background-color: #ff8ba7;
@@ -54,51 +55,58 @@
       background-color: #faeee7;
       }
         </style>
+=======
+>>>>>>> 3dd472a15a29c0b72a0bc286bb6c3a76fd7a6251
 </head>
 <div class="body">
 <body>
-    <a href= "index.html"><img src="images\logo.png" alt="NBD logo banner that says no bake desserts that are no big deal" width= 900 height= 350>
+    <a href= "index.html"><img src="images\logocolor.png" alt="NBD logo banner that says no bake desserts that are no big deal" width= 900 height= 350>
     <nav>
         <a href = index.html> <img src="images\button_home.png" alt="home button" width="300" height="75" ></a> 
         <a href = ingredients.html> <img src="images\button_ingredients.png" alt="ingredients button" width="300" height="75"></a> 
         
         <div class="dropdown">  
             <button class="dropbtn"><img src="images\button_recipes.png" alt="recipes button dropdown containing links to four recipes" width="300" height="75">
-            </button>  
             <div class="dropdown-content">  
             <a href="opbcookie.html"> No Bake Cookies </a>  
             <a href="oreoballs.html"> Oreo Balls </a>  
             <a href="pbbars.html"> Peanut Butter Bars </a>  
             <a href="puppy.html"> Puppy Chow </a> 
             </div>  
+            </button>
             </div>  
     </nav>
-    <p>Welcome to to the NBD website, where no-bake desserts are <strong>  #NoBigDeal! </strong> This website will teach you how to make a variety of no-bake desserts that use similar ingredients. The recipes are perfect for college students or seniors without access to an oven, children learning to bake, and even adults trying to avoiding heating up the house in the summer. </p>
+    <p>Welcome to to the NBD website, where no-bake desserts are <strong>  #NoBigDeal! </strong>
+      <br> This website will teach you how to make a variety of no-bake desserts
+      <br> that use similar ingredients. The recipes are perfect for college students or 
+      <br> seniors without access to afn oven, children learning to bake, and even adults trying to avoiding heating up the house in the summer. </p>
     <h1> About Us </h1>
-    <aside> <img src="images\headshot_Kristine.png" alt= "Headshot of Kristine" width=300>
-        <p> Kristine is a graduate student at Emporia State University and an Instructional Designer who works in K-12 e-learning. She lives in Richmond, Virginia and her favorite no-bake recipe is the oreo balls.</p></aside>
+    <div class="clearfix">
+      <div class="bio"> <img src="images\headshot_Kristine.png" alt= "Headshot of Kristine" width=300>
+        <p> Kristine is a graduate student at Emporia State University and an Instructional Designer who works in K-12 e-learning. She lives in Richmond, Virginia and her favorite no-bake recipe is the oreo balls.</p></div>
 
-    <aside> <img src="images\    ">
-        <p> Maddy is a novice baker, but enjoys the craft immensly! In between graduate school and coaching softball she likes to experiment in the kitchen. Her favorite no-bake dessert recipe is the no-bake cookies recipe.</p> </aside>
+      <div class="bio"> <img src="images\    ">
+        <p> Maddy is a novice baker, but enjoys the craft immensly! In between graduate school and coaching softball she likes to experiment in the kitchen. Her favorite no-bake dessert recipe is the no-bake cookies recipe.</p> </div>
 
-    <aside> <img src="images\Sarah_headshot.jpg" alt= "Headshot of Sarah" width=300>
-       <p>Sarah is a graduate student at Emporia State University and a high school French teacher. She lives in Jefferson City, Missouri with her husband James and baby Amelia, and loves baking peanut butter cookies.</p></aside>
+      <div class="bio"> <img src="images\Sarah_headshot.jpg" alt= "Headshot of Sarah" width=300>
+       <p>Sarah is a graduate student at Emporia State University and a high school French teacher. She lives in Jefferson City, Missouri with her husband James and baby Amelia, and loves baking peanut butter cookies.</p></div>
 
-    <aside><img src="images\headshot_caitlin.jpeg" alt= "Headshot of Caitlin" width=300>
-        <p> Caitlin is a graduate student at Emporia State University and bartender. She lives in Denver, Colorado with a goofy poodle, and loves making puppy chow. </p></aside>
-<h1> Contact Us</h1>
+      <div class="bio"><img src="images\headshot_caitlin.jpeg" alt= "Headshot of Caitlin" width=300>
+        <p> Caitlin is a graduate student at Emporia State University and bartender. She lives in Denver, Colorado with a goofy poodle, and loves making puppy chow. </p></div>
+    </div>
+        <h1> Contact Us</h1>
 <form>      
     <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-    <input name="email" type="text" class="feedback-input" placeholder="Email" />
-    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-    <input type="submit" value="SUBMIT"/>
+    <br> <input name="email" type="text" class="feedback-input" placeholder="Email" />
+    <br> <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+    <br> <input type="submit" value="SUBMIT"/>
   </form>
 </body>
 </div>
 <br>
 <br>
 <br>
-  <footer> 
+<footer align="center">
     <p> 2022 ⓒ Kristine Harner, Sarah Sponsel, Caitlin Henrie, and Maddy Broxterman</p>
     <p><a href="mailto:kharner@g.emporia.edu">kharner@g.emporia.edu</a></p>
   </footer>

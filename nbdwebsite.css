@@ -6,14 +6,14 @@ html {
 body {
     font-size: 20px;
     font-family:"Nobile";
-    margin: 0px;
+    margin: 20px;
     color: black;
     background-color: #faeee7;
 }
 
 main { 
     display: block;
-    padding: 5px 0;
+    padding: 20px;
 }
 
 * { outline: none !important; }
@@ -72,8 +72,6 @@ button {
   background-color: #ff8ba7;
   color: #000000;
   padding: 20px 45px;
-  font-size: 16px;
-  border: black;
   border-radius: 11px;
   display: inline-block;
   font: normal bold 26px/1 "lobster two";
@@ -142,6 +140,7 @@ button {
     display: inline-block;
     font: normal bold 26px/1 "lobster two";
     text-align: center;
+    height: 75px
 
   }
   
