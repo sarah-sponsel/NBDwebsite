@@ -13,7 +13,7 @@ body {
 
 main { 
     display: block;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 * { outline: none !important; }
