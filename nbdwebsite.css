@@ -109,6 +109,7 @@ button {
   .dropdown {
     position: relative;
     display: inline-block;
+    text-align: left;
   }
 
 
@@ -126,6 +127,7 @@ button {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: left;
   }
   
   .dropdown-content a:hover {background-color: #ff8ba7;}
