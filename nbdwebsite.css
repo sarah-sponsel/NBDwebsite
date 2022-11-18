@@ -57,17 +57,6 @@ img { border-style: none; }
     box-sizing: border-box;
 }
 
-
-.button {
- background: #ff8ba7;
- border-radius: 11px;
- padding: 20px 45px;
- color: #000000;
- display: inline-block;
- font: normal bold 26px/1 "lobster two";
- text-align: center;
-}
-
 /* more recipes */
 * {
     box-sizing: border-box;
