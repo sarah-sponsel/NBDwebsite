@@ -58,7 +58,7 @@ img { border-style: none; }
 }
 
 
-button {
+.button {
  background: #ff8ba7;
  border-radius: 11px;
  padding: 20px 45px;
@@ -135,3 +135,9 @@ button {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #ff8ba7;}
+ /*footer*/
+  .footer {
+    background-color: brown;
+
+
+   }
