@@ -132,7 +132,7 @@ button {
     width: 25%;
     padding: 50px;
   }
-
+  /*dropdown*/
   .dropbtn {
     background-color: #ff8ba7;
     color: #000000;
@@ -152,7 +152,7 @@ button {
     display: inline-block;
   }
 
-  /*dropdown*/
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -169,7 +169,7 @@ button {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: gray;}
+  .dropdown-content a:hover {background-color: #ff8ba7;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
