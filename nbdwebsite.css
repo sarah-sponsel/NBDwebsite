@@ -83,6 +83,7 @@ button {
   display: inline-block;
 }
 
+    
 .dropdown-content {
   display: none;
   position: absolute;
@@ -93,11 +94,13 @@ button {
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    font-size: 20px;
+    font-family:"Nobile";
+    margin: 0px;
+    color: #000000;
+    background-color: #faeee7
 }
+
 
 .dropdown-content a:hover {background-color: gray;}
 
