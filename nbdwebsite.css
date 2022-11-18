@@ -98,7 +98,8 @@ button {
     font-family:"Nobile";
     margin: 0px;
     color: #000000;
-    background-color: #faeee7
+    background-color: #faeee7;
+    text-align: left;
 }
 
 
