@@ -55,6 +55,7 @@ img { border-style: none; }
     padding: 0 15px;
     max-width: 100%;
     box-sizing: border-box;
+    text-align: center;
 }
 
 /* more recipes */
